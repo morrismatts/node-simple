@@ -7,5 +7,5 @@ module.exports = function(_app) {
 };
 
 function index(req, res) {
-	res.render('index');
+	res.render('pages/home');
 }
